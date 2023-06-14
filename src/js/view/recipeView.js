@@ -3,6 +3,7 @@ import View from './View.js';
 // use icon pack
 import icons from 'url:../../img/icons.svg';
 import Fractional from 'fractional'; // implement fractional ingredients
+import { Fraction } from 'fractional'; // implement fractional ingredients
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');

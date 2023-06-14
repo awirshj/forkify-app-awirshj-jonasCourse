@@ -16,7 +16,7 @@ git config --global user.email amirshjprogramming@gmail.com
 .gitignore
 
 git status
-git add -A
+git add -A(adding all files(except .gitignore files) to the staging area)
 if we create some change..than we need git add -A again.
 
 git commit -m "initial commit=message"
@@ -49,3 +49,5 @@ git remote add origin(name of remote branch) git@github.com:awirshj/test.git
 git branch -M master(the name of the branch that we want to push)
 
 git push -u origin(remote brach) master(the name of the branch that we want to push)
+
+touch README.md
